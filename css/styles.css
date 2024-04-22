@@ -34,7 +34,7 @@ nav {
   #app{
       padding: 30px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      display: flex;
+      
   }
 
   .home .testButton{
@@ -52,28 +52,45 @@ nav {
     margin: 0 auto;
     display: flex;
   }
-  .home img{
+  .home .zero{
     margin: 0 auto;
     display: flex;
     width: 600px;
     margin-bottom: 20px;
   }
+  .one{
+    margin-left:200px;
+    margin-right: 20px;
+  }
+
   .about {
     display: flex;
     margin: 0 auto;
     
     .flex{
         flex-direction: column;
+        margin: 0 auto;
     p{
         width: 500px;
        
     }
+
 }
     img{
         width: 650px;
         height: 400px;
         margin-top: 70px;
         margin-left:20px;
+    }
+    
+}
+
+.pics{
+    display: flex;
+    margin-top:100px;
+    img{
+        margin: 0 auto;
+    
     }
 }
 
@@ -92,13 +109,17 @@ nav {
     }
 }
     .contact{
-        margin: 0 auto;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         h1{
             text-align: center;
         }
+        img{
+            margin: 0 auto;
+            display: flex;
+        }
         p{
             width: 350px;
+            margin: 0 auto;
         }
         input{
             display: flex;
@@ -106,9 +127,10 @@ nav {
             width: 350px;
             border: pink 2px ridge;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            flex-direction: column;
+            margin: 0 auto;
             margin-top: 10px;
             margin-bottom: 10px;
-            flex-direction: column;
         }
         button{
             background-color: pink;
@@ -123,11 +145,19 @@ nav {
         .flex{
             display: flex;
             flex-direction: column;
-            img{
-                width: 300px;
-                height: 300px;
-                
-            }
+            
+        }
+        .long{
+            p{
+                width: 100%;
+                margin-top: 10px;
         }
     }
-  
+    
+    }
+    .anti{
+        img{
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+    }
